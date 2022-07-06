@@ -1,0 +1,24 @@
+h1{
+    background-color: khaki;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+h2{
+    background-color: bisque;
+    color: brown;
+    text-align: center;
+}
+p{
+    background-color: chocolate;
+    color: cyan;
+}
+ul{
+    background-color: cyan;
+    color: crimson;
+}
+img{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
