@@ -1,0 +1,42 @@
+.head{
+    text-align: center;
+    font-size: xx-large;
+}
+.blocks{
+    display: flex;
+}
+.item{
+    margin: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: ridge 1px #a2a2a2;
+    border-right: ridge 3px #a2a2a2;
+    text-align: center;
+    width: 350px;
+    height: 300px;
+    line-height: 7mm;
+}
+.bname{
+    margin: 20px;
+    color: coral;
+    font-family: "Ink Free", sans-serif;
+    font-weight: bold;
+}
+.content{
+    font-style: italic;
+}
+
+i{
+    font-size: 25px;
+    color: gray;
+}
+
+.button{
+    margin-top: 20px;
+    background-color:mediumaquamarine ;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
