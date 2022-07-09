@@ -13,26 +13,22 @@
     justify-content: center;
 }
 .center{
-    display:flex ;
+    display:flex;
     font-size: 35px;
 }
 .mediumbox{
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
     background: #033476;
     width: 250px;
     height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 .bottom{
     background: cornflowerblue;
     height: 500px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px ;
     font-size: 55px;
     display: flex;
     align-items: center;

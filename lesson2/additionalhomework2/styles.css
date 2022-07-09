@@ -1,0 +1,45 @@
+body{
+    background: #26c4ec;
+    padding-top: 40px;
+}
+.mainbox{
+    display: flex;
+}
+.firstColumn{
+    margin: 0 auto;
+}
+.secondLine{
+    margin: 0 auto;
+}
+.boxItem{
+    display: flex;
+    background: white;
+    border: solid 1px white;
+    border-radius: 6px;
+    width: 630px;
+    height: 150px;
+    margin-bottom: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+}
+.textBox{
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.pic{
+    font-size: 50px;
+    color: gray;
+    margin-left: 35px;
+    margin-top: 46px;
+}
+.hText{
+    color: coral;
+    font-family: "Bookman Old Style", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+.text{
+    font-family: Tahoma;
+    font-size: smaller;
+}
