@@ -1,0 +1,43 @@
+.global{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.box{
+    border: solid black 1px;
+    width: 350px;
+    text-align: center;
+    min-height: 350px;
+    position: relative;
+}
+.boxname{
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom:60px ;
+}
+.boxbody{
+    color: #bdb1b1;
+    line-height: 25px;
+}
+.boxbutton{
+    border: solid black 1px;
+    margin: 50px;
+    padding: 10px 25px;
+}
+
+.icon{
+    border: solid black 1px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    position: absolute;
+    top:-50px;
+    left: 125px;
+    background-color: white;
+}
