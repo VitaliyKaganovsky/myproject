@@ -1,0 +1,48 @@
+.head{
+    height: 150px;
+    background-color: blue;
+    margin-bottom: 10px;
+}
+.page{
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    width: 74%;
+    background-color: #033476;
+    height: 500px;
+}
+.secondary{
+    width: 24%;
+    height: 500px;
+    background-color: #033476;
+}
+
+.style{
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .main{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .secondary{
+        width: 100%;
+    }
+
+}
